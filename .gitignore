@@ -3,3 +3,4 @@ node_modules
 npm-debug.log
 .codekit-cache
 dist
+bower_components

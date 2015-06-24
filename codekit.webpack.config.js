@@ -1,7 +1,7 @@
 /* jshint ignore:start */
 
 module.exports = {
-  entry: './build/app.jsx',
+  entry: './src/app.jsx',
   output: {
     path: './dist/assets/scripts',
     filename: 'app.js'
