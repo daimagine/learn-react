@@ -35673,6 +35673,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/dist\/assets\/scripts\/Login.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/assets\/scripts\/Login.min.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/Login.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/dist\/assets\/scripts\/LoginActions.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/assets\/scripts\/LoginActions.min.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/LoginActions.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/dist\/assets\/scripts\/payment.min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -35758,6 +35780,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
+		},
+	"\/src\/actions\/LoginActions.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/actions\/LoginActions.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/LoginActions.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
 		},
 	"\/src\/app.js": {
 		"fileType": 64,
@@ -38457,6 +38490,94 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
+	"\/src\/components\/Auth\/Login.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/components\/Auth\/Login.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/Login.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/components\/Auth\/Signup.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/components\/Auth\/Signup.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/Signup.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/components\/AuthenticatedApp.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/components\/AuthenticatedApp.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/AuthenticatedApp.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/components\/AuthenticatedComponent.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/components\/AuthenticatedComponent.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/AuthenticatedComponent.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/components\/Home.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/components\/Home.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/Home.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/constants\/AppConstants.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/constants\/AppConstants.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/AppConstants.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/constants\/LoginConstants.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/constants\/LoginConstants.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/LoginConstants.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/dispatchers\/AppDispatcher.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/dispatchers\/AppDispatcher.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/AppDispatcher.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
 	"\/src\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -38467,17 +38588,70 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
+		},
+	"\/src\/services\/AuthService.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/services\/AuthService.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/AuthService.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/services\/RouterContainer.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/services\/RouterContainer.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/RouterContainer.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/stores\/BaseStore.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/stores\/BaseStore.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/BaseStore.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/stores\/LoginStore.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/stores\/LoginStore.js",
+		"outputAbbreviatedPath": "\/dist\/assets\/scripts\/LoginStore.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
 		}
 	},
 "hooks": [
 	{
-		"enabled": 1,
+		"enabled": 0,
 		"hookType": 1,
 		"name": "compile jsx",
-		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMjY7PEFFS1BRVlxhZmhVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy8wMV8QEE5TU2VsZkV4cHJlc3Npb25cTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMzWhNIAJgAzTCx83ODk6WU5TS2V5UGF0aIALEAqACl1pbnB1dEZpbGVuYW1l0issPT5fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uoz9AMV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb25cTlNFeHByZXNzaW9u0issQkNeTlNNdXRhYmxlQXJyYXmjQkQxV05TQXJyYXnSKyxGR18QE05TS2V5UGF0aEV4cHJlc3Npb26kSElKMV8QE05TS2V5UGF0aEV4cHJlc3Npb25fEBROU0Z1bmN0aW9uRXhwcmVzc2lvblxOU0V4cHJlc3Npb27TTB8LTU5PXxAPTlNDb25zdGFudFZhbHVlgA8QAIAQU2pzeNIrLFJTXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNUVTFfEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uXE5TRXhwcmVzc2lvbtQLV1hZWk4oW1pOU01vZGlmaWVyV05TRmxhZ3NeTlNPcGVyYXRvclR5cGWAEhBj0issXV5fEBVOU0luUHJlZGljYXRlT3BlcmF0b3KjX2AxXxAVTlNJblByZWRpY2F0ZU9wZXJhdG9yXxATTlNQcmVkaWNhdGVPcGVyYXRvctIrLGJjXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2RlMV8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZVtOU1ByZWRpY2F0ZdIrLERnokQx0issaWpfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2tsMV8QE05TQ29tcG91bmRQcmVkaWNhdGVbTlNQcmVkaWNhdGVfEA9OU0tleWVkQXJjaGl2ZXLRb3BUcm9vdIABAAgAEQAaACMALQAyADcAUABWAF0AdwCJAJAAkgCUAJYAmwCmAKgAqgCsALUAyQDcAPIA9AD2APgA+gEFAQ8BHgExAT0BPwFBAUMBRQFHAVQBWQFbAV0BYgFtAXYBiQGNAaABrQG2AbsBvQG\/AcEByAHSAdQB1gHYAeYB6wIKAg4CLQI6Aj8CTgJSAloCXwJ1AnoCkAKnArQCuwLNAs8C0QLTAtcC3AL4AvwDGAMlAy4DOQNBA1ADUgNUA1kDcQN1A40DowOoA8ADxAPcA+gD7QPwA\/UECwQPBCUEMQRDBEYESwAAAAAAAAIBAAAAAAAAAHEAAAAAAAAAAAAAAAAAAARN",
+		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMjY7PEFFS1BRVlxhZmhVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy8wMV8QEE5TU2VsZkV4cHJlc3Npb25cTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMzWhNIAJgAzTCx83ODk6WU5TS2V5UGF0aIALEAqACl1pbnB1dEZ1bGxQYXRo0issPT5fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uoz9AMV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb25cTlNFeHByZXNzaW9u0issQkNeTlNNdXRhYmxlQXJyYXmjQkQxV05TQXJyYXnSKyxGR18QE05TS2V5UGF0aEV4cHJlc3Npb26kSElKMV8QE05TS2V5UGF0aEV4cHJlc3Npb25fEBROU0Z1bmN0aW9uRXhwcmVzc2lvblxOU0V4cHJlc3Npb27TTB8LTU5PXxAPTlNDb25zdGFudFZhbHVlgA8QAIAQWGRhZW5lcnlz0issUlNfEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uo1RVMV8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb25cTlNFeHByZXNzaW9u1AtXWFlaTihbWk5TTW9kaWZpZXJXTlNGbGFnc15OU09wZXJhdG9yVHlwZYASEGPSKyxdXl8QFU5TSW5QcmVkaWNhdGVPcGVyYXRvcqNfYDFfEBVOU0luUHJlZGljYXRlT3BlcmF0b3JfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0issYmNfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjZGUxXxAVTlNDb21wYXJpc29uUHJlZGljYXRlW05TUHJlZGljYXRl0issRGeiRDHSKyxpal8QE05TQ29tcG91bmRQcmVkaWNhdGWja2wxXxATTlNDb21wb3VuZFByZWRpY2F0ZVtOU1ByZWRpY2F0ZV8QD05TS2V5ZWRBcmNoaXZlctFvcFRyb290gAEACAARABoAIwAtADIANwBQAFYAXQB3AIkAkACSAJQAlgCbAKYAqACqAKwAtQDJANwA8gD0APYA+AD6AQUBDwEeATEBPQE\/AUEBQwFFAUcBVAFZAVsBXQFiAW0BdgGJAY0BoAGtAbYBuwG9Ab8BwQHIAdIB1AHWAdgB5gHrAgoCDgItAjoCPwJOAlICWgJfAnUCegKQAqcCtAK7As0CzwLRAtMC3ALhAv0DAQMdAyoDMwM+A0YDVQNXA1kDXgN2A3oDkgOoA60DxQPJA+ED7QPyA\/UD+gQQBBQEKgQ2BEgESwRQAAAAAAAAAgEAAAAAAAAAcQAAAAAAAAAAAAAAAAAABFI=",
 		"runOrder": 2,
 		"scriptSourceString": ".\/compile-webpack.sh",
 		"uuidString": "14E299FD-5D21-4D37-9A80-303080A6CC03"
+		},
+	{
+		"enabled": 1,
+		"hookType": 1,
+		"name": "Hook #2",
+		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMjY7PEFFS1BRVlxhZmhVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy8wMV8QEE5TU2VsZkV4cHJlc3Npb25cTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMzWhNIAJgAzTCx83ODk6WU5TS2V5UGF0aIALEAqACl1pbnB1dEZ1bGxQYXRo0issPT5fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uoz9AMV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb25cTlNFeHByZXNzaW9u0issQkNeTlNNdXRhYmxlQXJyYXmjQkQxV05TQXJyYXnSKyxGR18QE05TS2V5UGF0aEV4cHJlc3Npb26kSElKMV8QE05TS2V5UGF0aEV4cHJlc3Npb25fEBROU0Z1bmN0aW9uRXhwcmVzc2lvblxOU0V4cHJlc3Npb27TTB8LTU5PXxAPTlNDb25zdGFudFZhbHVlgA8QAIAQWGRhZW5lcnlz0issUlNfEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uo1RVMV8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb25cTlNFeHByZXNzaW9u1AtXWFlaTihbWk5TTW9kaWZpZXJXTlNGbGFnc15OU09wZXJhdG9yVHlwZYASEGPSKyxdXl8QFU5TSW5QcmVkaWNhdGVPcGVyYXRvcqNfYDFfEBVOU0luUHJlZGljYXRlT3BlcmF0b3JfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0issYmNfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjZGUxXxAVTlNDb21wYXJpc29uUHJlZGljYXRlW05TUHJlZGljYXRl0issRGeiRDHSKyxpal8QE05TQ29tcG91bmRQcmVkaWNhdGWja2wxXxATTlNDb21wb3VuZFByZWRpY2F0ZVtOU1ByZWRpY2F0ZV8QD05TS2V5ZWRBcmNoaXZlctFvcFRyb290gAEACAARABoAIwAtADIANwBQAFYAXQB3AIkAkACSAJQAlgCbAKYAqACqAKwAtQDJANwA8gD0APYA+AD6AQUBDwEeATEBPQE\/AUEBQwFFAUcBVAFZAVsBXQFiAW0BdgGJAY0BoAGtAbYBuwG9Ab8BwQHIAdIB1AHWAdgB5gHrAgoCDgItAjoCPwJOAlICWgJfAnUCegKQAqcCtAK7As0CzwLRAtMC3ALhAv0DAQMdAyoDMwM+A0YDVQNXA1kDXgN2A3oDkgOoA60DxQPJA+ED7QPyA\/UD+gQQBBQEKgQ2BEgESwRQAAAAAAAAAgEAAAAAAAAAcQAAAAAAAAAAAAAAAAAABFI=",
+		"runOrder": 2,
+		"scriptSourceString": ".\/compile-webpack.sh\necho 'codekit hook' > .\/webpack.log",
+		"uuidString": "9EA334C7-4381-4B62-90E8-494CEC1B103C"
 		}
 	],
 "lastSavedByUser": "Adi Kurniawan",
@@ -39135,7 +39309,7 @@
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
-	"skippedItemsString": "node_modules, \/src\/constants, \/src\/actions, _logs, .hg, _cache, \/src\/dispatchers, \/src\/components, log, logs, cache, .svn, \/src\/services, .git, \/src\/stores",
+	"skippedItemsString": "node_modules, _logs, .hg, _cache, log, logs, cache, .svn, .git",
 	"slimAutoOutputPathEnabled": 1,
 	"slimAutoOutputPathFilenamePattern": "*.html",
 	"slimAutoOutputPathRelativePath": "",

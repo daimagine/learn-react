@@ -31781,6 +31781,18 @@
 	  _inherits(Login, _React$Component);
 
 	  _createClass(Login, [{
+	    key: 'componentWillMount',
+	    value: function componentWillMount() {
+	      document.body.classList.add('error-body');
+	      document.body.classList.add('no-top');
+	    }
+	  }, {
+	    key: 'componentDidUnmount',
+	    value: function componentDidUnmount() {
+	      document.body.classList.remove('error-body');
+	      document.body.classList.remove('no-top');
+	    }
+	  }, {
 	    key: 'login',
 	    value: function login(e) {
 	      e.preventDefault();
@@ -31794,40 +31806,166 @@
 	    value: function render() {
 	      return _reactAddons2['default'].createElement(
 	        'div',
-	        { className: 'login jumbotron center-block' },
+	        { className: 'row login-container column-seperation' },
 	        _reactAddons2['default'].createElement(
-	          'h1',
-	          null,
-	          'Login'
+	          'div',
+	          { className: 'col-md-10 col-md-offset-1' },
+	          _reactAddons2['default'].createElement(
+	            'h2',
+	            null,
+	            'Sign in to ',
+	            _reactAddons2['default'].createElement(
+	              'span',
+	              null,
+	              'Jualio'
+	            )
+	          ),
+	          _reactAddons2['default'].createElement('br', null)
 	        ),
 	        _reactAddons2['default'].createElement(
-	          'form',
-	          { role: 'form' },
+	          'div',
+	          { className: 'col-md-5 col-md-offset-1' },
 	          _reactAddons2['default'].createElement(
-	            'div',
-	            { className: 'form-group' },
+	            'form',
+	            { role: 'form', id: 'login-form', className: 'login-form' },
 	            _reactAddons2['default'].createElement(
-	              'label',
-	              { htmlFor: 'username' },
-	              'Username'
+	              'div',
+	              { className: 'row' },
+	              _reactAddons2['default'].createElement(
+	                'div',
+	                { className: 'form-group col-md-12' },
+	                _reactAddons2['default'].createElement(
+	                  'label',
+	                  { className: 'form-label' },
+	                  'Username'
+	                ),
+	                _reactAddons2['default'].createElement(
+	                  'div',
+	                  { className: 'controls' },
+	                  _reactAddons2['default'].createElement(
+	                    'div',
+	                    { className: 'input-with-icon right' },
+	                    _reactAddons2['default'].createElement('i', null),
+	                    _reactAddons2['default'].createElement('input', { id: 'txtusername', type: 'text', name: 'txtusername', className: 'form-control',
+	                      valueLink: this.linkState('user') })
+	                  )
+	                )
+	              )
 	            ),
-	            _reactAddons2['default'].createElement('input', { type: 'text', valueLink: this.linkState('user'), className: 'form-control', id: 'username', placeholder: 'Username' })
+	            _reactAddons2['default'].createElement(
+	              'div',
+	              { className: 'row' },
+	              _reactAddons2['default'].createElement(
+	                'div',
+	                { className: 'form-group col-md-12' },
+	                _reactAddons2['default'].createElement(
+	                  'label',
+	                  { className: 'form-label' },
+	                  'Password'
+	                ),
+	                _reactAddons2['default'].createElement('span', { className: 'help' }),
+	                _reactAddons2['default'].createElement(
+	                  'div',
+	                  { className: 'controls' },
+	                  _reactAddons2['default'].createElement(
+	                    'div',
+	                    { className: 'input-with-icon right' },
+	                    _reactAddons2['default'].createElement('i', null),
+	                    _reactAddons2['default'].createElement('input', { id: 'txtpassword', type: 'password', name: 'txtpassword', className: 'form-control',
+	                      valueLink: this.linkState('password') })
+	                  )
+	                )
+	              )
+	            ),
+	            _reactAddons2['default'].createElement(
+	              'div',
+	              { className: 'row' },
+	              _reactAddons2['default'].createElement(
+	                'div',
+	                { className: 'control-group col-md-12' },
+	                _reactAddons2['default'].createElement(
+	                  'div',
+	                  { className: 'checkbox checkbox check-success' },
+	                  _reactAddons2['default'].createElement(
+	                    'a',
+	                    { href: '#' },
+	                    'Trouble login in?'
+	                  ),
+	                  _reactAddons2['default'].createElement('br', null),
+	                  _reactAddons2['default'].createElement('br', null),
+	                  _reactAddons2['default'].createElement('input', { id: 'checkbox1', type: 'checkbox', value: '1' }),
+	                  _reactAddons2['default'].createElement(
+	                    'label',
+	                    { htmlFor: 'checkbox1' },
+	                    'Keep me reminded'
+	                  )
+	                )
+	              )
+	            ),
+	            _reactAddons2['default'].createElement(
+	              'div',
+	              { className: 'row' },
+	              _reactAddons2['default'].createElement(
+	                'div',
+	                { className: 'col-md-12' },
+	                _reactAddons2['default'].createElement(
+	                  'button',
+	                  { type: 'submit', className: 'btn btn-primary btn-cons pull-right',
+	                    onClick: this.login.bind(this) },
+	                  'Login'
+	                )
+	              )
+	            )
 	          ),
+	          _reactAddons2['default'].createElement('br', null)
+	        ),
+	        _reactAddons2['default'].createElement(
+	          'div',
+	          { className: 'col-md-5' },
+	          _reactAddons2['default'].createElement('br', null),
 	          _reactAddons2['default'].createElement(
-	            'div',
-	            { className: 'form-group' },
+	            'p',
+	            null,
+	            'Use Facebook, Twitter or your email to sign in.',
+	            _reactAddons2['default'].createElement('br', null),
 	            _reactAddons2['default'].createElement(
-	              'label',
-	              { htmlFor: 'password' },
-	              'Password'
+	              'a',
+	              { href: 'sign-up.html' },
+	              'Sign up Now! '
 	            ),
-	            _reactAddons2['default'].createElement('input', { type: 'password', valueLink: this.linkState('password'), className: 'form-control', id: 'password', ref: 'password', placeholder: 'Password' })
+	            'for a Jualio account, it\'s free and always will be..',
+	            _reactAddons2['default'].createElement('br', null)
+	          ),
+	          _reactAddons2['default'].createElement('br', null),
+	          _reactAddons2['default'].createElement(
+	            'button',
+	            { type: 'button', className: 'btn btn-block btn-info col-md-8' },
+	            _reactAddons2['default'].createElement(
+	              'span',
+	              { className: 'pull-left' },
+	              _reactAddons2['default'].createElement('i', { className: 'icon-facebook' })
+	            ),
+	            _reactAddons2['default'].createElement(
+	              'span',
+	              { className: 'bold' },
+	              'Login with Facebook'
+	            )
 	          ),
 	          _reactAddons2['default'].createElement(
 	            'button',
-	            { type: 'submit', className: 'btn btn-default', onClick: this.login.bind(this) },
-	            'Submit'
-	          )
+	            { type: 'button', className: 'btn btn-block btn-success col-md-8' },
+	            _reactAddons2['default'].createElement(
+	              'span',
+	              { className: 'pull-left' },
+	              _reactAddons2['default'].createElement('i', { className: 'icon-twitter' })
+	            ),
+	            _reactAddons2['default'].createElement(
+	              'span',
+	              { className: 'bold' },
+	              'Login with Twitter'
+	            )
+	          ),
+	          _reactAddons2['default'].createElement('br', null)
 	        )
 	      );
 	    }
