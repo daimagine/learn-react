@@ -3,7 +3,7 @@
 module.exports = {
   entry: './src/app.jsx',
   output: {
-    path: './dist/assets/scripts',
+    path: './src',
     filename: 'app.js'
   },
   module: {

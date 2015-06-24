@@ -28,5 +28,9 @@ var s = {
 	[
 		'./assets/scripts/init.min.js',
 		'./assets/scripts/app.min.js'
+	],
+	app:
+	[
+		'./assets/scripts/app.min.js'
 	]
 };
