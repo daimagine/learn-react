@@ -1,6 +1,6 @@
 import {LOGIN_USER, LOGOUT_USER} from '../constants/LoginConstants';
 import BaseStore from './BaseStore';
-import jwt_decode from 'jwt-decode';
+import jwt from 'jsonwebtoken';
 
 
 class LoginStore extends BaseStore {
@@ -16,7 +16,10 @@ class LoginStore extends BaseStore {
     switch(action.actionType) {
       case LOGIN_USER:
         this._jwt = action.jwt;
-        this._user = jwt_decode(this._jwt);
+        var payload = jwt.decode(this._jwt);
+        if (payload) {
+          this._user = payload.user;
+        }
         this.emitChange();
         break;
       case LOGOUT_USER:
@@ -38,7 +41,16 @@ class LoginStore extends BaseStore {
   }
 
   isLoggedIn() {
-    return !!this._user;
+    var valid = true;
+    if (this._user) {
+      var expiryTime = this._user.client_token_valid_time * 1000;
+      var now = (new Date()).getTime();
+      if (expiryTime < now) {
+        valid = false;
+        console.log('token is expired', new Date(expiryTime));
+      }
+    }
+    return !!this._user && valid;
   }
 }
 

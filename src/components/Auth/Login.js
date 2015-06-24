@@ -35,7 +35,7 @@ export default class Login extends React.Component {
     return (
       <div className="row login-container column-seperation">
         <div className="col-md-10 col-md-offset-1">
-          <h2>Sign in to <span>Jualio</span></h2><br/>
+          <h2>Sign in to <span className="highlight">Jualio</span></h2><br/>
         </div>
         <div className="col-md-5 col-md-offset-1">
           <form role="form" id="login-form" className="login-form">
@@ -58,6 +58,16 @@ export default class Login extends React.Component {
                   <div className="input-with-icon right"><i></i>
                     <input id="txtpassword" type="password" name="txtpassword" className="form-control"
                       valueLink={this.linkState('password')} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="form-group col-md-12">
+                <label className="form-label">Captcha</label><span className="help"></span>
+                <div className="controls">
+                  <div className="input-with-icon right"><i></i>
+                    <div className="g-recaptcha" data-sitekey="6Lc4zggTAAAAAIQhg0kFlMA0qpy4PLyulMaPt-8-"></div>
                   </div>
                 </div>
               </div>

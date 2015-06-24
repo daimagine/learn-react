@@ -31,6 +31,7 @@ var s = {
 	],
 	app:
 	[
-		'./assets/scripts/app.min.js'
+		'./assets/scripts/app.min.js',
+		'https://www.google.com/recaptcha/api.js'
 	]
 };

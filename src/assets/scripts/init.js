@@ -820,7 +820,7 @@ $(document).ready(function () {
 						iEnd = iStart + iListLength - 1;
 					}
 
-					for ( i=0, ien=an.length ; i<ien ; i++ ) {
+					for ( i=0, ien=an.length ; i<ien; i++ ) {
 						// Remove the middle elements
 						$('li:gt(0)', an[i]).filter(':not(:last)').remove();
 

@@ -2,6 +2,7 @@ import axios from 'axios';
 import when from 'when';
 import {LOGIN_URL, SIGNUP_URL} from '../constants/LoginConstants';
 import LoginActions from '../actions/LoginActions';
+import jwt from 'jsonwebtoken';
 
 class AuthService {
 
@@ -40,7 +41,8 @@ class AuthService {
   handleAuth(loginPromise) {
     return loginPromise
       .then(function(response) {
-        var jwt = response.id_token;
+        console.log('response', response);
+        var jwt = response.data.payload;
         LoginActions.loginUser(jwt);
         return true;
       });
