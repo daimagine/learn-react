@@ -3,29 +3,30 @@
 var s = {
 	plugin:
 	[
-		'./scripts/plugins.min.js',
-		'./scripts/global.min.js'
+		'./assets/scripts/plugins.min.js',
+		'./assets/scripts/global.min.js'
 	],
 	chart:
 	[
-		'./scripts/datatables.min.js',
-		'./scripts/charts.min.js'
+		'./assets/scripts/datatables.min.js',
+		'./assets/scripts/charts.min.js'
 	],
 	payment:
 	[
-		'./scripts/payment.min.js'
+		'./assets/scripts/payment.min.js'
 	],
 	product:
 	[
-		'./scripts/soundmanager.min.js',
-		'./scripts/prettyembed.min.js'
+		'./assets/scripts/soundmanager.min.js',
+		'./assets/scripts/prettyembed.min.js'
 	],
 	profile:
 	[
-		'./scripts/profile.min.js'
+		'./assets/scripts/profile.min.js'
 	],
 	init:
 	[
-		'./scripts/init.min.js'
+		'./assets/scripts/init.min.js',
+		'./assets/scripts/app.min.js'
 	]
 };

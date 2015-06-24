@@ -1,5 +1,5 @@
-// @codekit-prepend "../../bower_components/card/lib/js/jquery.card.js";
-// @codekit-prepend "../../bower_components/validetta/dist/validetta.min.js";
+// @codekit-prepend "../../../bower_components/card/lib/js/jquery.card.js";
+// @codekit-prepend "../../../bower_components/validetta/dist/validetta.min.js";
 
 $(document).ready(function() {
 

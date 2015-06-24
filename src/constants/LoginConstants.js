@@ -1,4 +1,4 @@
-import { API_URL } from './AppConstans.js';
+import { API_URL } from './AppConstants';
 
 export default {
   LOGIN_URL: API_URL + 'sessions/create',

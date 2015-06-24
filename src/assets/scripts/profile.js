@@ -1,5 +1,5 @@
-// @codekit-prepend "../../bower_components/imagesloaded/imagesloaded.pkgd.js";
-// @codekit-prepend "../../bower_components/masonry/dist/masonry.pkgd.js";
+// @codekit-prepend "../../../bower_components/imagesloaded/imagesloaded.pkgd.js";
+// @codekit-prepend "../../../bower_components/masonry/dist/masonry.pkgd.js";
 
 /*========================================
 =            PROFILE PARALLAX            =
